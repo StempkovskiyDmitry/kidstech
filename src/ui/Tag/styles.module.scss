@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 12px;
+  border-radius: 12px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.active {
+  background: #5fbf77;
+  color: white;
+}
+
+.wrapper:not(.active):hover {
+  cursor: pointer;
+  color: #5fbf77;
+}

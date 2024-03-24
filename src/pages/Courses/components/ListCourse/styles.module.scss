@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+}
+.courses {
+  display: flex;
+  flex: 1;
+  gap: 18px;
+  flex-wrap: wrap;
+}

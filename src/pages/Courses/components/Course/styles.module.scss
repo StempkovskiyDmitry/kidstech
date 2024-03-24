@@ -1,0 +1,25 @@
+.wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+  flex-basis: calc(33.33% - 12px);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 18px 45px -27px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 18px 45px -27px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 18px 45px -27px rgba(0, 0, 0, 0.75);
+}
+.image {
+  padding: 9px 0;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  align-self: center;
+}
+.name {
+  font-size: 18px;
+  font-weight: 800;
+  background: white;
+  color: black;
+  padding: 12px 18px 18px 18px;
+  flex-grow: 1;
+}
